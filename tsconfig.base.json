@@ -20,7 +20,10 @@
       }
     ],
     "paths": {
-      "@demo/shared": ["tools/demo/index.ts"]
+      "@demo/shared": ["tools/demo/index.ts"],
+      "@rpk/*": ["packages/*"],
+      "@rpk/foobar": ["packages/foobar/index.d.ts"],
+      "@rpk/foobar/angular": ["packages/foobar/angular/index.ts"]
     }
   },
   "exclude": ["node_modules", "tmp"]

@@ -1,5 +1,5 @@
 {
-  "npmScope": "nativescript",
+  "npmScope": "rpk",
   "affected": {
     "defaultBase": "master"
   },
